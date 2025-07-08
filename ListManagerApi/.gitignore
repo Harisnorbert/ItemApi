@@ -1,0 +1,8 @@
+# .NET build
+bin/
+obj/
+.vs/
+
+# OS fájlok
+.DS_Store
+Thumbs.db
