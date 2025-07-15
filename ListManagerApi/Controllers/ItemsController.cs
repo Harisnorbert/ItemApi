@@ -42,6 +42,8 @@ public class ItemsController : ControllerBase
                 if (existingItem != null)
                 {
                     existingItem.Name = item.Name;
+                    existingItem.Price = item.Price;
+                    existingItem.Quantity = item.Quantity;
                 }
             }
         }
